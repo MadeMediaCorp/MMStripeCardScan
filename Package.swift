@@ -11,7 +11,7 @@ let package = Package(
             targets: ["MMStripeCardScan"])
     ],
     dependencies: [
-        .package(url: "https://github.com/egarroMADE/MMStripeCore.git", from: "1.0.1")
+        .package(url: "https://github.com/MadeMediaCorp/MMStripeCore.git", from: "1.0.1")
     ],
     targets: [
         .target(
