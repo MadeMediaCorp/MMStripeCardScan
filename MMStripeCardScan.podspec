@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMStripeCardScan'
-  s.version          = '1.6.0'
+  s.version          = '1.6.2'
   s.summary          = 'Fork of StripeCardScan to support expiry dates and DNI detection'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Modified CardScanSheet and SimpleScanViewController to expect expiryMonth and expiryYear. Also adds DNI scanning'
 
-  s.homepage         = 'https://github.com/egarroMADE/MMStripeCardScan'
+  s.homepage         = 'https://github.com/MadeMediaCorp/MMStripeCardScan'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'egarroMADE' => 'esteban@mademediacorp.com' }
-  s.source           = { :git => 'https://github.com/egarroMADE/MMStripeCardScan.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MadeMediaCorp/MMStripeCardScan.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
